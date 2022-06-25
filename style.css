@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image:linear-gradient(to bottom, rgb(54, 0, 54),indigo);
+    height: 100vh;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.cercle{
+    width: 10px;
+    height: 10px;
+    border-radius:50%;
+    background-color: transparent;
+    margin: 0;
+    transition: 2s ease;
+    cursor:pointer;
+}
+.cercle:hover{
+    transition-duration: 0s;
+}
